@@ -1,0 +1,88 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go specific
+*.exe
+*.test
+*.out
+vendor/
+*.lock
+
+# Compiled Object files
+*.o
+*.a
+*.lo
+*.la
+*.lai
+*.so
+*.dylib
+*.dll
+*.pyc
+*.pyo
+*.pyd
+
+# Build directories
+/build/
+bin/
+release/
+dist/
+
+# Go workspace files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sw~
+*.swn
+.DS_Store
+*.DS_Store
+._*
+
+# Database files
+*.db
+*.sqlite3
+*.db-journal
+
+# Logs
+*.log
+
+# Go module files (if vendoring)
+vendor/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Ignore secrets and keys (You should add your own patterns for these files)
+.env
+*.key
+*.pem
+config.yaml
+config.toml
+
+# Ignore test coverage output
+coverage.out
+
+# Ignoring anything related to node_modules, if your Go project has frontend JS/CSS
+node_modules/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Others
+*.lock
+!package-lock.json
